@@ -1,0 +1,26 @@
+{
+  "name": "Dk64Online",
+  "version": "0.0.1",
+  "description": "This is the official repository.",
+  "main": "index.js",
+  "author": "PMONickPop123, SpiceyWolf",
+  "credits": "Isotarge",
+  "license": "GPL3",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Modloader-Lost-Mods/Dk64Online.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Modloader-Lost-Mods/Dk64Online/issues"
+  },
+  "homepage": "https://github.com/Modloader-Lost-Mods/Dk64Online#readme",
+  "modloader64_deps": {
+    "DonkeyKong64": "https://github.com/Modloader-Lost-Mods/Core-DonkeyKong64"
+  }
+}

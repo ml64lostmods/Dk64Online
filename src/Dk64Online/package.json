@@ -1,0 +1,14 @@
+{
+  "name": "Dk64Online",
+  "version": "0.0.1",
+  "description": "",
+  "main": "Dk64Online.js",
+  "author": "PMONickpop123, SpiceyWolf",
+  "credits": "Isotarge",
+  "license": "GPL3",
+  "core": "DonkeyKong64",
+  "updateUrl": "https://raw.githubusercontent.com/Modloader-Lost-Mods/Dk64Online/master/update.json",
+  "modloader64_deps": {
+    "DonkeyKong64": "https://github.com/Modloader-Lost-Mods/Core-DonkeyKong64"
+  }
+}
