@@ -16,7 +16,8 @@
       "DonkeyKong64/*": [
         "libs/DonkeyKong64/*"
       ]
-    }
+    },
+    "noImplicitAny": false
   },
   "include": [
     "src/**/*.ts",
