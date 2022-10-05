@@ -1,11 +1,16 @@
 {
   "name": "Dk64Online",
-  "version": "0.0.2",
-  "description": "This is the official repository.",
+  "version": "0.0.3",
+  "description": "An online multiplayer mod for Donkey Kong 64",
   "main": "Dk64Online.js",
-  "author": "PMONickPop123, SpiceyWolf",
-  "credits": "",
+  "author": "PMONickpop123, SpiceyWolf",
+  "credits": "Isotarge",
   "license": "GPL3",
+  "core": "DonkeyKong64",
+  "updateUrl": "https://raw.githubusercontent.com/Modloader-Lost-Mods/Dk64Online/master/update.json",
+  "modloader64_deps": {
+    "DonkeyKong64": "https://github.com/Modloader-Lost-Mods/Core-DonkeyKong64"
+  },
   "dependencies": {},
   "devDependencies": {},
   "repository": {
@@ -15,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/Modloader-Lost-Mods/Dk64Online/issues"
   },
-  "homepage": "https://github.com/Modloader-Lost-Mods/Dk64Online#readme",
-  "modloader64_deps": {
-    "DonkeyKong64": "https://github.com/Modloader-Lost-Mods/Core-DonkeyKong64"
-  }
+  "homepage": "https://github.com/Modloader-Lost-Mods/Dk64Online#readme"
 }

@@ -2,7 +2,7 @@
   "rootDir": "./",
   "outDir": "build",
   "compilerOptions": {
-    "rootDir": "./",
+    "rootDir": "./src",
     "target": "ESNEXT",
     "module": "commonjs",
     "sourceMap": true,
@@ -13,8 +13,11 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "DonkeyKong64/*": [
-        "libs/DonkeyKong64/*"
+      "@sound/*": [
+        "./build/emulator/*"
+      ],
+      "@Dk64Online/*": [
+        "./src/Dk64Online/*"
       ]
     },
     "noImplicitAny": false
@@ -24,12 +27,14 @@
     "test/**/*.ts",
     "mods/**/*.ts",
     "cores/**/*.ts",
-    "bin/paker.ts"
+    "bin/paker.ts",
+	  "tools/**/*.ts"
   ],
   "exclude": [
     "node_modules",
     "API",
     "build.ts",
-    "build"
+    "build",
+    "cores"
   ]
 }
